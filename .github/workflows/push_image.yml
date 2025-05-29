@@ -32,7 +32,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            maitaowang/certimate
+            godyao/certimate
             crpi-nzphxpwodpxmncph.cn-shanghai.personal.cr.aliyuncs.com/maitaowang/certimate
           tags: |
             type=ref,event=branch
