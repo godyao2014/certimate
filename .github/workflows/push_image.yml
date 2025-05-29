@@ -33,7 +33,7 @@ jobs:
         with:
           images: |
             maitaowang/certimate
-            registry.cn-shanghai.aliyuncs.com/maitaowang/certimate
+            crpi-nzphxpwodpxmncph.cn-shanghai.personal.cr.aliyuncs.com/maitaowang/certimate
           tags: |
             type=ref,event=branch
             type=ref,event=pr
@@ -49,7 +49,7 @@ jobs:
       - name: Log in to ALIYUNCS
         uses: docker/login-action@v3
         with:
-          registry: registry.cn-shanghai.aliyuncs.com
+          registry: crpi-nzphxpwodpxmncph.cn-shanghai.personal.cr.aliyuncs.com
           username: ${{ secrets.ALIYUN_USERNAME }}
           password: ${{ secrets.ALIYUN_PASSWORD }}
 
