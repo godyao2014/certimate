@@ -32,7 +32,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            usual2970/certimate
+            godyao/certimate
           tags: |
             type=ref,event=branch
             type=ref,event=pr
